@@ -1,0 +1,203 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-11-03T10:02:59.159Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.stepDefinitionLogin.setUP()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Login with correct credentials",
+        "description": "",
+        "id": "login-to-ymail-and-fetch-mails-with-the-subject-of-searched-text;login-with-correct-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11827000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user navigates to \"https://login.yahoo.com/?.src\u003dym\u0026.lang\u003den-US\u0026.intl\u003dus\u0026.done\u003dhttps%3A%2F%2Fmail.yahoo.com%2Fd\" site",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://login.yahoo.com/?.src\u003dym\u0026.lang\u003den-US\u0026.intl\u003dus\u0026.done\u003dhttps%3A%2F%2Fmail.yahoo.com%2Fd",
+                  "offset": 19
+                }
+              ],
+              "location": "stepDefinitions.stepDefinitionLogin.user_navigates_to_something_site(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 515000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters email address as \"owaishmustafa@ymail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "owaishmustafa@ymail.com",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinitions.stepDefinitionLogin.user_enters_email_address_as_something(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3287000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on the next button",
+            "match": {
+              "location": "stepDefinitions.stepDefinitionLogin.user_clicks_on_the_next_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1933000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters password as \"Bissi2019!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bissi2019!",
+                  "offset": 25
+                }
+              ],
+              "location": "stepDefinitions.stepDefinitionLogin.user_enters_password_as_something(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 34830000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "stepDefinitions.stepDefinitionLogin.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 164000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user logged in successfully",
+            "match": {
+              "location": "stepDefinitions.stepDefinitionLogin.user_logged_in_successfully()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4907000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user searches for \"Check out delicious lunch options\" on the search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Check out delicious lunch options",
+                  "offset": 19
+                }
+              ],
+              "location": "stepDefinitions.stepDefinitionLogin.user_searches_for_something_on_the_search_box(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3612000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user clicks on search",
+            "match": {
+              "location": "stepDefinitions.stepDefinitionLogin.user_clicks_on_search()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3089000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user receives search results",
+            "match": {
+              "location": "stepDefinitions.stepDefinitionLogin.user_receives_search_results()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21451000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user fetches email received on \"Oct 3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Oct 3",
+                  "offset": 32
+                }
+              ],
+              "location": "stepDefinitions.stepDefinitionLogin.user_fetches_email_received_on_something(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user fetches email received last \"10 days\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10 days",
+                  "offset": 34
+                }
+              ],
+              "location": "stepDefinitions.stepDefinitionLogin.user_fetches_email_received_last_something(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login to Ymail and fetch mails with the subject of searched text",
+    "description": "",
+    "id": "login-to-ymail-and-fetch-mails-with-the-subject-of-searched-text",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/login.feature",
+    "tags": []
+  }
+]

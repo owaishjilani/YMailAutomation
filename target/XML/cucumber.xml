@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="86.042">
+<testcase classname="Login to Ymail and fetch mails with the subject of searched text" name="Login with correct credentials" time="85.749">
+<system-out><![CDATA[Given user navigates to "https://login.yahoo.com/?.src=ym&.lang=en-US&.intl=us&.done=https%3A%2F%2Fmail.yahoo.com%2Fd" site.passed
+When user enters email address as "owaishmustafa@ymail.com".................passed
+Then user clicks on the next button.........................................passed
+When user enters password as "Bissi2019!"...................................passed
+Then user clicks on login button............................................passed
+And user logged in successfully.............................................passed
+Then user searches for "Check out delicious lunch options" on the search box.passed
+Then user clicks on search..................................................passed
+And user receives search results............................................passed
+Then user fetches email received on "Oct 3".................................passed
+Then user fetches email received last "10 days".............................passed
+]]></system-out>
+</testcase>
+</testsuite>
